@@ -6,7 +6,7 @@ export const restaurants = [
         location: {
             state: 'Nevada',
             county: 'Elko',
-            city: 'Elko',
+            city: 'Elko'
         }  
     },
     {
@@ -16,7 +16,7 @@ export const restaurants = [
         location: {
             state: 'Nevada',
             county: 'Washoe',
-            city: 'Reno',
+            city: 'Reno'
         }  
     },
     {
@@ -26,7 +26,7 @@ export const restaurants = [
         location: {
             state: 'Nevada',
             county: 'Washoe',
-            city: 'Reno',
+            city: 'Reno'
         }  
     },
     {
@@ -36,7 +36,7 @@ export const restaurants = [
         location: {
             state: 'Nevada',
             county: 'Elko',
-            city: 'Lamoille',
+            city: 'Lamoille'
         }  
     },
     {
@@ -46,7 +46,7 @@ export const restaurants = [
         location: {
             state: 'California',
             county: 'Nevada County',
-            city: 'Truckee',
+            city: 'Truckee'
         }  
     }
 ];
