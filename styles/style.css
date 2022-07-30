@@ -23,11 +23,12 @@ body {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     margin-bottom: calc(var(--footer-height));
+    
 }
 
 header {
@@ -95,4 +96,38 @@ footer {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
 
+  }
+
+  #candies {
+    margin: 20px;
+
+  }
+  .candy-item {
+    margin: 25px 0px;
+    width: 220px;
+    height: 220px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 3px 5px 5px black;
+  }
+  .beer {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 3px 5px 5px black;
+  }
+  .restaurant-item {
+    margin: 25px 0px;
+    border: 1px solid black;
+    box-shadow: 3px 5px 5px black;
+    padding: 2px;
+  }
+  .game-item {
+    margin: 25px 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 3px 5px 5px black;
   }
